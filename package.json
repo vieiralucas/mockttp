@@ -1,6 +1,6 @@
 {
   "name": "mockttp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Make mock http servers",
   "main": "dist/mockttp.js",
   "scripts": {
