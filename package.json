@@ -1,0 +1,36 @@
+{
+  "name": "mockttp",
+  "version": "0.0.0",
+  "description": "Make mock http servers",
+  "main": "dist/mockttp.js",
+  "scripts": {
+    "build": "babel src/mockttp.js -o dist/mockttp.js",
+    "dev": "babel-node src/mockttp.js",
+    "test": "not yet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vieiralucas/mockttp.git"
+  },
+  "keywords": [
+    "http",
+    "mock",
+    "tests",
+    "acceptance",
+    "server"
+  ],
+  "author": "Lucas Vieira <vieiralucas4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vieiralucas/mockttp/issues"
+  },
+  "homepage": "https://github.com/vieiralucas/mockttp#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "restify": "^4.1.1"
+  }
+}
