@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Make mock http servers",
   "main": "dist/mockttp.js",
+  "bin": {
+    "mockttp": "./dist/mockttp.js"
+  },
   "scripts": {
     "build": "babel src/mockttp.js -o dist/mockttp.js",
     "dev": "babel-node src/mockttp.js",
